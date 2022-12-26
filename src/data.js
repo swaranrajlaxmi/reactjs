@@ -1,41 +1,38 @@
 export default [
     {
-        id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "katie-zaferes.png",
-        stats: {
-            rating: 5.0,
-            reviewCount: 6
-        },
-        location: "Online",
-        openSpots: 0,
+        title: "Mount Fuji",
+        location: "Japan",
+        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        startDate: "12 Jan, 2021",
+        endDate: "24 Jan, 2021",
+        description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
+        imageUrl: "https://source.unsplash.com/WLxQvbMyfas"
     },
     {
-        id: 2,
-        title: "Learn Wedding Photography",
-        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-        price: 125,
-        coverImg: "wedding-photography.png",
-        stats: {
-            rating: 5.0,
-            reviewCount: 30
-        },
-        location: "Online",
-        openSpots: 27,
+        title: "Some Lake",
+        location: "Somewhere",
+        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        startDate: "27 May, 2021",
+        endDate: "8 Jun, 2021",
+        description: "when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centurie",
+        imageUrl: "https://a.cdn-hotels.com/gdcs/production144/d1394/a304783d-6dc9-4bb2-9239-d124a16a154e.jpg"
     },
     {
-        id: 3,
-        title: "Group Mountain Biking",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: "mountain-bike.png",
-        stats: {
-            rating: 4.8,
-            reviewCount: 2
-        },
-        location: "Norway",
-        openSpots: 3,
+        title: "Goa Beach",
+        location: "Goa",
+        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        startDate: "12 Jan, 2021",
+        endDate: "24 Jan, 2021",
+        description: "It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop",
+        imageUrl: "https://www.jetsupholidays.com/wp-content/uploads/2019/02/goa.png"
+    },
+    {
+        title: "Bali Hindu Temple",
+        location: "Bali",
+        googleMapsUrl: "https://goo.gl/maps/1DGM5WrWnATgkSNB8",
+        startDate: "12 Jan, 2021",
+        endDate: "24 Jan, 2021",
+        description: "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it",
+        imageUrl: "https://img.freepik.com/free-photo/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake_158538-15793.jpg?w=2000"
     }
 ]
