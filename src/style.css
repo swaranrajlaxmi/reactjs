@@ -1,21 +1,12 @@
-
-
-
-
-
-.nav-items{
-    list-style: none;
-    display: flex;
+* {
+    box-sizing: border-box;
 }
-.nav-items > li{
-    padding: 10px;
-}
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-}
-.nav-icon{
-    width: 40px;
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    display: inline-block;
+    margin-right: 4px;
+    border-radius: 5px;
 }
