@@ -3,92 +3,60 @@
 }
 
 body {
+    font-family: "Karla", sans-serif;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
 }
 
-header{
-    background: #F55A5A;
+main {
+    padding: 36px;
 }
 
-nav {
-    height: 55px;
+.header {
     display: flex;
-    margin-left: 36%;
-    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
 }
-nav > h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18.4608px;
-    line-height: 18px;
-    letter-spacing: -0.075em;
-    margin-left: 10PX;
 
-    color: #FFFFFF;
-    }
-.nav--logo {
-    width: 24px;
-    height: 24px;
-    margin-top: 14px;
-}   
-.card--image {
-    width: 125px;
-    height: 168px;
-    left: 40px;
-    top: 100px;
+.header--image {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header--title {
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project {
+    font-size: 0.75rem;
+    font-weight: 500;
+}
+
+.form {
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+}
+
+.form--input {
+    font-family: "Karla", sans-serif;
     border-radius: 5px;
-}
-.container{
-    display: flex;
-    flex-direction: row;
-    margin: 36px 40px 0px 40px;
-}
-.container--right{
-    margin-left: 19px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
 }
 
-.location{
- display: flex;
- flex-direction: row;
+.form--button {
+    grid-column: 1 / -1;
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
-
-.location > h3 {
-   margin: 0px;
-   padding: 0px;
-   margin-left: 10px;
-   margin-right: 10px;
-   font-weight: 400;
-}
-
-.location--link{
-    color: #918E9B;
-
-}
-.location--icon{
-    width: 10px;
-    height: 14px;
-    margin-top: 6px;
-}
-.travel--place > h1 {
-    margin: 0px;
-    padding: 0px;
-}
-.travel--date > h4{
-    margin: 0px;
-    padding: 0px;
-    padding-top: 10px;
-
-}
-.travel--description{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14.24px;
-    line-height: 150%;
-    /* or 15px */
-
-
-    color: #2B283A;
+.meme--image {
+    max-width: 100%;
 }
