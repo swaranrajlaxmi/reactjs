@@ -1,17 +1,16 @@
 import React from "react"
-export default function BodyContent(){
-    return(
-        <main>
-            <div>
-                <h1 className="body--title">Fun facts about React</h1>
-                <ul className="body--facts">
-                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</li>
-                    <li>Excepteur sint occaecat cupidatat non proident</li>        
-                    <li>sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-                    <li>Excepteur sint occaecat cupidatat non proident</li>
-                    <li>sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
-                </ul>
-            </div>
-        </main>    
+
+export default function BodyCont(props) {
+    return (
+        <main className={props.darkMode ? "dark" : ""}>
+            <h1 className="main--title">Fun facts about React</h1>
+            <ul className="main--facts">
+                <li>Was first released in 2013</li>
+                <li>Was originally created by Jordan Walke</li>
+                <li>Has well over 100K stars on GitHub</li>
+                <li>Is maintained by Facebook</li>
+                <li>Powers thousands of enterprise apps, including mobile apps</li>
+            </ul>
+        </main>
     )
 }
