@@ -1,3 +1,3 @@
-# Travel Journal
+# Meme Generator
 
 ![demo](./demo-pic.png)
