@@ -1,21 +1,22 @@
-
-
-
-
-
-.nav-items{
-    list-style: none;
-    display: flex;
+* {
+    box-sizing: border-box;
 }
-.nav-items > li{
-    padding: 10px;
+
+body {
+    margin: 0;
+    background-color:  #F5F7FB;
+    padding: 20px;
+    font-family: 'Karla', sans-serif;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+
+.title {
+    font-size: 40px;
+    margin: 0;
 }
-.nav-icon{
-    width: 40px;
+
+.instructions {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    margin-top: 0;
+    text-align: center;
 }
