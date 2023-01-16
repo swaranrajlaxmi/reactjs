@@ -9,9 +9,19 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+main {
+    background: #F5F7FB;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .title {
     font-size: 40px;
     margin: 0;
+    text-align: center;
+    color: #293264;
 }
 
 .instructions {
@@ -19,4 +29,14 @@ body {
     font-weight: 400;
     margin-top: 0;
     text-align: center;
+}
+
+.start-quiz {
+    color:#F5F7FB;
+    background: #4D5B9E;
+    border-radius: 15px;
+    width: 193px;
+    height: 52px;
+    font-size: 1.2rem;
+    
 }
